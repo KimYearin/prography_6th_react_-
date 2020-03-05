@@ -10,29 +10,29 @@ body{
  }
 
 li{
-  list-style: none;
+  list-style: none; /*표시없애기*/
 }
 
-#nav-container > li{
+#nav-container > li{ /*네비게이션 형태*/
   float:left;
   padding : 10px;
   font-family: monospace;
   font-size: 15px;
 }
 
-.nav1{
+.nav1{ /*프로그라피 프론트 김예린*/
   width: 60%;
   text-align: center;
   font-weight: bold;
 
 }
 
-.nav2 .nav3{
+.nav2 .nav3{ /*Todo, 영화*/
   cursor: pointer;
 }
 
 
-.todos{
+.todos{ /*todos글씨*/
   width : 500px;
   height: 100px;
   text-align: center;
@@ -42,13 +42,13 @@ li{
 }
 
 
-#inputbox{
+#inputbox{ /*무엇을 해야하나요?*/
   margin-left: 450px;
   font-size: 30px;
   margin-top: 9px;
 }
 
-#inlist{
+#inlist{ /*리스트감싸기*/
   list-style:none;
   padding:0;
   margin:0;
@@ -57,20 +57,20 @@ li{
   margin-top: 10px;
 }
 
-#inlist li{
+#inlist li{ /*리스트형태*/
   border : 1px solid #ccc;
   background : #fff;
   padding : 5px 10px;
   position : relative;
 }
 
-div ul li.checked {
+div ul li.checked { /*클릭했을때*/
   text-decoration: line-through;
   color : rgb(195,195,195);
 }
 
 /* Style the close button */
-.closebutton {
+.closebutton { /*삭제버튼*/
   position: absolute;
   right: 0;
   top: 0;
@@ -78,7 +78,7 @@ div ul li.checked {
   color : red;
 }
 
-.modifybutton {
+.modifybutton { /*수정버튼*/
   position: absolute;
   right: 60px;
   top: 0;
