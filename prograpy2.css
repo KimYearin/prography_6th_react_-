@@ -1,0 +1,31 @@
+header{
+    box-shadow: 0px 2px gray;
+    background-color: #fff;
+    height: 30px;
+}
+
+body{
+  background-color: rgb(195, 195, 195);
+}
+
+li{
+  list-style: none; /*표시없애기*/
+}
+
+#nav-container > li{ /*네비게이션 형태*/
+  float:left;
+  padding : 10px;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.nav1{ /*프로그라피 프론트 김예린*/
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.nav2 .nav3{ /*Todo, 영화*/
+  cursor: pointer;
+}
