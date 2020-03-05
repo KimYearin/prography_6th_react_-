@@ -1,3 +1,5 @@
+//to do list js
+
 var totalItems=0; //리스트개수
 
 function addNewItem(list, itemText){ //리스트추가함수
